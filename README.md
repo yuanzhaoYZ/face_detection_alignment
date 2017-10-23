@@ -40,8 +40,12 @@ python setup.py install --yes USE_AVX_INSTRUCTIONS --no DLIB_USE_CUDA
 
 ## run preprocess.py
 ```bash
-~/anaconda3/envs/py27_tf012/bin/python preprocess.py \
---input-dir /data/input/ \
---output-dir /data/output/ \
+~/anaconda/envs/py27_tf012/bin/python preprocess.py \
+--input-dir /Users/yuan/Downloads/workspace/out_aws_ibm_keras_age_not0_not2017_up_to_13248.csv_curated/inspection_not_needed_cropped_v2 \
+--output-dir /Users/yuan/Downloads/workspace/out_aws_ibm_keras_age_not0_not2017_up_to_13248.csv_curated/tmp \
 --crop-dim 512
 ```
+
+
+## Reference
+* https://hackernoon.com/building-a-facial-recognition-pipeline-with-deep-learning-in-tensorflow-66e7645015b8
