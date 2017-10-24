@@ -3,6 +3,7 @@ Face Detection and Alignment
 
 
 ## Pre-requisites
+### Linux
 ```bash
 conda create -n py27_tf012 python=2.7
 source activate py27_tf012
@@ -15,7 +16,20 @@ conda install -c menpo opencv3
 conda install -c menpo dlib
 ```
 
-(optional)install dlib on Mac
+
+### MAC
+```bash
+conda create -n py27_tf012 python=2.7
+source activate py27_tf012
+pip install jupyter
+pip install --upgrade ipykernel
+pip install scipy
+conda install PIL
+source activate py27_tf012
+conda install -c menpo opencv3
+```
+
+install dlib on Mac
 Clean up dlib installed via conda:
 ```bash
 conda uninstall dlib
